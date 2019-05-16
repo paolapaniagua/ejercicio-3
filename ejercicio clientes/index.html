@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Paola Paniagua">
+    <meta name="keywords" content="Alta clientes">
+
+    <link rel="stylesheet" href="assets/css/estilo.css">
+
+    <title>Clientes</title>
+</head>
+<body>
+
+    <form name="formularioDatos" id="formularioDatos">
+        <h1>Nuevo Cliente</h1>
+
+        <p><label for="nombre">Nombre:</label> 
+            <input type="text" name="nombre" id="nombre"> 
+        </p>
+
+        <p><label for="apellido">Apellido:</label> 
+            <input type="text" name="apellido" id="apellido">
+        </p>
+
+        <p>
+            <label for="dni">Dni</label>
+            <input type="number" name="dni" id="dni">
+        </p>
+
+        <p>
+            <label for="balance">Balance:</label>
+            <input type="number" name="balance" id="balance">
+        </p>
+
+        <input type="submit" name="submit" id="guardar" value="Guardar" class="boton">
+    </form>
+
+    <h2>Listado de clientes</h2>
+
+    <ul id="ul"></ul>
+
+    <script src="assets/js/clientes.js"></script>
+</body>
+</html>

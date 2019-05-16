@@ -1,0 +1,28 @@
+
+input{
+    border-radius: 5px;
+    display: block;
+}
+
+label{
+    text-align: right;
+    font-weight: bold; 
+}
+
+.boton{
+    padding: 2%;
+    background: rgb(82, 17, 17);
+    color: white;
+    font-weight: bold; 
+
+}
+
+#formularioDatos{
+    border-radius: 15px;
+    border: 20px;
+    border-color: black;
+    background: rgb(240, 149, 149);
+    width: 30%;
+    padding-left: 2%;
+    padding-bottom: 1%;
+}
